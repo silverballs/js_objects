@@ -17,4 +17,4 @@
 		//create new person:
 		var matt = new Person("sales", true); 
 
-
+// Pick back up adding methods to constructors
