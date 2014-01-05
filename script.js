@@ -18,3 +18,25 @@
 		var matt = new Person("sales", true); 
 
 // Pick back up adding methods to constructors
+
+
+
+
+var speak = function(saywhat){
+	console.log(saywhat);
+}
+
+
+var Dog = function(){
+	var name, breed;
+}
+
+
+Dog.prototype.speak= speak;
+
+firstDog = new Dog;
+firstDog.name = "Rover";
+// firstDog.breed = "Doberman";
+
+
+firstDog.speak("woof")
